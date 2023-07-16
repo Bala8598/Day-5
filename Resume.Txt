@@ -1,0 +1,77 @@
+Code : 
+let myResume={
+    "Personal Info": {
+      "Name": "Balasubramaniyan S",
+      "Email": "balasubramaniyan851998@gamil.com",
+      "Contact": 9087128252,
+      "Degree": "Bsc CS",
+      
+      "Profiles":
+        {
+         
+          "github":"https://github.com/Bala8598"
+        }
+      
+    },
+    "Experince": [
+      {
+     "Organization":"Neeyamo Enterprises Pvt Ltd",
+        "Position": "SDE",
+        "Duration" :"01/06/2019 to 28/02/2021"
+        
+      },
+    ],
+    "Education": [
+      {
+        "Institution": "MTN College of Arts and Science",
+        "Dept": "Computer science",
+        "Type": "Regular",
+        "Batch": "2015-2018",
+        "gpa": "6.7",
+      }
+    ],
+    
+    "Languages": [
+      {
+        "Languages": "Tamil, English",
+      }
+    ],
+    "Hobbies": [
+      {
+        "name": "Bike riding and Cooking",
+      }
+    ]
+  }
+  console.log(myResume);
+
+
+OP: 
+node /tmp/zpqK4q7Ypp.js
+{
+  'Personal Info': {
+    Name: 'Balasubramaniyan S',
+    Email: 'balasubramaniyan851998@gamil.com',
+    Contact: 9087128252,
+    Degree: 'Bsc CS',
+    Profiles: { github: 'https://github.com/Bala8598' }
+  },
+  Experince: [
+    {
+      Organization: 'Neeyamo Enterprises Pvt Ltd',
+      Position: 'SDE',
+      Duration: '01/06/2019 to 28/02/2021'
+    }
+  ],
+  Education: [
+    {
+      Institution: 'MTN College of Arts and Science',
+      Dept: 'Computer science',
+      Type: 'Regular',
+      Batch: '2015-2018',
+      gpa: '6.7'
+    }
+  ],
+  Languages: [ { Languages: 'Tamil, English' } ],
+  Hobbies: [ { name: 'Bike riding and Cooking' } ]
+}
+
